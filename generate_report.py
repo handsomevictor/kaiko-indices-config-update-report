@@ -56,8 +56,6 @@ def make_comparison(RT=True):
         # # Save the differences to a new CSV
         # diff.to_csv('differences.csv')
 
-prediction interval?
-
 
 if __name__ == "__main__":
     res = make_comparison()
