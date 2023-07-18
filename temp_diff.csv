@@ -1,0 +1,5 @@
+,real_time-request-exchanges,real_time-request-exchanges,real_time-request-semi_length_window,real_time-request-semi_length_window,real_time-update_cron,real_time-update_cron
+,self,other,self,other,self,other
+KK_PR_AAVEUSD,"['bnus', 'cbse', 'hitb', 'oslx']","['bnus', 'cbse', 'hitb', 'krkn', 'oslx']",,,,
+KK_RR_XTZUSD,,,,,*/5 * * * * * *,*/5 */999 * * * * *
+KK_RR_ZECUSD,"['cbse', 'gmni', 'krkn']","['cbse', 'krkn']",120s,120000s,,
