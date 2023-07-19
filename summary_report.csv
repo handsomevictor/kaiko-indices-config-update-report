@@ -1,6 +1,0 @@
-,Change
-KK_PR_AAVEUSD,"['bnus', 'cbse', 'hitb', 'oslx'] -> ['bnus', 'cbse', 'hitb'] -> [{'absolute_weights': [1], 'value': 1}] -> [{'absolute_weights': [1], 'value': 2}]"
-KK_PR_AAVEUSD_NYC,"['bnus', 'cbse', 'hitb', 'krkn', 'oslx'] -> ['bnus', 'cbse', 'hitb', 'krkn', 'oslx', 'zzzzz']"
-KK_PR_AAVEUSD_SGP,360s -> 3600s
-KK_PR_ADAUSD_LDN,360s -> 3600s
-KK_PR_ADAUSD_SGP,"['bfnx', 'bnus', 'cbse', 'krkn'] -> ['bfnx', 'bnus', 'krkn']"
