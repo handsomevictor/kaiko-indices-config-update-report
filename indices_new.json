@@ -9,7 +9,7 @@
                     }
                 ],
                 "end": "1970-01-01T00:00:00.000000000Z",
-                "exchanges": ["bnus", "cbse", "hitb", "oslx"],
+                "exchanges": ["bnus", "cbse", "hitb"],
                 "interval": "300s",
                 "methodology": {
                     "vwm_twap": {
@@ -20,7 +20,7 @@
                 "percentiles": [
                     {
                         "absolute_weights": [1],
-                        "value": 1
+                        "value": 2
                     }
                 ],
                 "quote": "usd",
@@ -73,7 +73,7 @@
                     }
                 ],
                 "end": "1970-01-01T00:00:00.000000000Z",
-                "exchanges": ["bnus", "cbse", "hitb", "krkn", "oslx"],
+                "exchanges": ["bnus", "cbse", "hitb", "krkn", "oslx", "zzzzz"],
                 "interval": "3600s",
                 "methodology": {
                     "vwm_twap": {
@@ -110,7 +110,7 @@
                 "methodology": {
                     "vwm_twap": {
                         "kind": "UNIFORM_KERNEL",
-                        "vwm_partition_size": "360s"
+                        "vwm_partition_size": "3600s"
                     }
                 },
                 "percentiles": [
@@ -174,7 +174,7 @@
                 "methodology": {
                     "vwm_twap": {
                         "kind": "UNIFORM_KERNEL",
-                        "vwm_partition_size": "360s"
+                        "vwm_partition_size": "3600s"
                     }
                 },
                 "percentiles": [
@@ -233,7 +233,7 @@
                     }
                 ],
                 "end": "1970-01-01T00:00:00.000000000Z",
-                "exchanges": ["bfnx", "bnus", "cbse", "krkn"],
+                "exchanges": ["bfnx", "bnus", "krkn"],
                 "interval": "3600s",
                 "methodology": {
                     "vwm_twap": {

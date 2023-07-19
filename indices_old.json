@@ -9,7 +9,7 @@
                     }
                 ],
                 "end": "1970-01-01T00:00:00.000000000Z",
-                "exchanges": ["bnus", "cbse", "hitb", "krkn", "oslx"],
+                "exchanges": ["bnus", "cbse", "hitb", "oslx"],
                 "interval": "300s",
                 "methodology": {
                     "vwm_twap": {
@@ -42,7 +42,7 @@
                 ],
                 "end": "1970-01-01T00:00:00.000000000Z",
                 "exchanges": ["bnus", "cbse", "hitb", "krkn", "oslx"],
-                "interval": "3600s",
+                "interval": "1800s",
                 "methodology": {
                     "vwm_twap": {
                         "kind": "UNIFORM_KERNEL",
@@ -105,7 +105,7 @@
                     }
                 ],
                 "end": "1970-01-01T00:00:00.000000000Z",
-                "exchanges": ["bnus", "cbse", "hitb", "krkn", "oslx"],
+                "exchanges": ["bnus", "cbse", "hitb", "krkn"],
                 "interval": "3600s",
                 "methodology": {
                     "vwm_twap": {
@@ -10204,7 +10204,7 @@
                 "semi_length_window": "15s",
                 "start": "1970-01-01T00:00:00.000000000Z"
             },
-            "update_cron": "*/5 */999 * * * * *"
+            "update_cron": "*/5 * * * * * *"
         }
     },
     "KK_RR_XTZUSD_LDN": {
@@ -10300,7 +10300,7 @@
                 "semi_length_window": "300s",
                 "start": "1970-01-01T00:00:00.000000000Z"
             },
-            "update_cron": "0 999 * * *"
+            "update_cron": "0 8 * * *"
         }
     },
     "KK_RR_ZECUSD": {
@@ -10313,7 +10313,7 @@
                     }
                 ],
                 "end": "1970-01-01T00:00:00.000000000Z",
-                "exchanges": ["cbse", "krkn"],
+                "exchanges": ["cbse", "gmni", "krkn"],
                 "interval": "120s",
                 "methodology": {
                     "vwm_twap": {
@@ -10329,7 +10329,7 @@
                 ],
                 "quote": "usd",
                 "semi_length_kind": "PRE",
-                "semi_length_window": "120000s",
+                "semi_length_window": "120s",
                 "start": "1970-01-01T00:00:00.000000000Z"
             },
             "update_cron": "*/5 * * * * * *"

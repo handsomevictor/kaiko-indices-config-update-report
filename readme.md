@@ -9,5 +9,5 @@ python3 generate_report.py -o indices_new.json -n indices_old.json -r summary_re
 
 reminder:
 1. Fixings and real time configs are seperated and in a sorted way in the report.
-2. Only contains Public Rates (starting with KK, having LDN etc at the end or not), 
+2. Only contains Public Rates (starting with KK, having LDN etc. at the end or not), 
    things like "kaiko-gemini-btc" will not be considered
